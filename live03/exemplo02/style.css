@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.galeria {
+    display: column;
+    columns: 8;
+    column-gap: 16px;
+    background-color: black;
+    padding-block: 32px ;
+    
+}
+
+.galeria img{
+    width: 100%;
+    padding-bottom: 16px;
+}
